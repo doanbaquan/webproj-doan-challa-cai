@@ -1,4 +1,6 @@
 # webproj-doan-challa-cai
 Notes:
 
-Quan-webmasterVamsi-cuntEric-data
+Quan-webmaster
+Vamsi-cunt
+Eric-cunt
