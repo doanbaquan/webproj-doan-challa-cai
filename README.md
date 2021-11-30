@@ -2,6 +2,6 @@
 Notes:
 
 Quan-webmaster
-Vamsi-cunt
-Eric-best man
+Vamsi-content specialist
+Eric-Data Analyst
 
