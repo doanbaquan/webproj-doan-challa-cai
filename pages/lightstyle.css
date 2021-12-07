@@ -1,13 +1,30 @@
-    
+body {
+  background-color: #a599b5;
+}
 .topnav {
-  background-color: #333;
+  background: linear-gradient(to right, #36ff33, #00fff0
+  );
   overflow: hidden;
 }
 .topnav a {
   float: left;
-  color: #0bdbf7;
+  color: #000000;
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
+  font-family: papyrus;
+  font-weight: 900;
   font-size: 17px;
+  font-variant: small-caps;
+}
+
+h1 {
+  color: black;
+  font-family: papyrus;
+  font-variant: small-caps;
+}
+
+p {
+  color: black;
+  font-size: 13px;
 }
