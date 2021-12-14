@@ -1,16 +1,17 @@
 body {
-  background-color: #cff4d2;
+  background-color: rgb(255, 212, 147);
   margin: 0px;
 }
+
 .topnav {
-  background: linear-gradient(to right, #36ff33, #00fff0);
+  background: linear-gradient(to right, green, yellow, red, blue);
   overflow: hidden;
   
 }
 
 .topnav a {
   float: left;
-  color: #000000;
+  color: black;
   text-align: center;
   padding: 14px 80px;
   text-decoration: none;
@@ -27,7 +28,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
 }
 
@@ -36,9 +37,30 @@ h1 {
   font-family: papyrus;
   font-variant: small-caps;
 }
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
 p {
-  color: rgb(23, 156, 34);
-  font-size: 25px;
+  color: rgb(30, 0, 34);
+  font-size: 14px;
   font-weight: 700;
   font-family: Arial;
 }
@@ -50,3 +72,12 @@ p {
   width: 30%;
   height: 25%;
 }
+
+.imgleftoftext{
+  width: 300px;
+  padding-left: 3.5%;
+  max-width: 100%;
+  display: inline-block;
+}
+
+
