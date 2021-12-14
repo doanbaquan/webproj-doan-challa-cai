@@ -18,7 +18,7 @@ body {
   font-weight: 900;
   font-size: 17px;
   font-variant: small-caps;
-  width: 200px;
+
 }
 
 .topnav a:hover {
@@ -40,7 +40,7 @@ p {
   color: rgb(23, 156, 34);
   font-size: 25px;
   font-weight: 700;
-  font-family: Raleway;
+  font-family: Arial;
 }
 
 .center {
