@@ -6,19 +6,19 @@ body {
 .topnav {
   background: linear-gradient(to right, green, yellow, red, blue);
   overflow: hidden;
-  
+
 }
 
 .topnav a {
-  float: left;
   color: black;
   text-align: center;
-  padding: 14px 80px;
+  padding: 1% 8%;
   text-decoration: none;
   font-family: papyrus;
   font-weight: 900;
   font-size: 17px;
   font-variant: small-caps;
+  display: inline-block;
 
 }
 
@@ -63,6 +63,7 @@ p {
   font-size: 14px;
   font-weight: 700;
   font-family: Arial;
+  text-align: left;
 }
 
 .center {
@@ -80,4 +81,15 @@ p {
   display: inline-block;
 }
 
+.text {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  text-align: left;
+}
 
+li {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 5px;
+}
