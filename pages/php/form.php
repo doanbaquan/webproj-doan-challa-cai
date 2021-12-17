@@ -1,3 +1,4 @@
+<html>
 Name: <input type="text" name="name" value="<?php echo $name;?>">
 
 E-mail: <input type="text" name="email" value="<?php echo $email;?>">
@@ -16,3 +17,5 @@ value="male">Male
 <input type="radio" name="gender"
 <?php if (isset($gender) && $gender=="other") echo "checked";?>
 value="other">Other
+
+</html>
