@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        Register for Leaderboard
-    </title>
+    <title>Register | SD Street Racers</title>
+    <link rel="icon" href="../images/SDRACING.png">
     <link rel="stylesheet" href="../css/lightstyle.css">
-
     <style>
+        table {
+            border: 2px solid black;
+            width: 40%;
+        }
+
         td {
+            padding-left: 6%;
             font-size: 20px;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
@@ -15,6 +19,9 @@
 </head>
 <body>
     <div class="topnav">
+        <a class="navbar-brand" href="../pages/home.html" style="padding-top: 1%; padding-left: 1%; padding-right: 1%;">
+            <img src="../images/SDRACING.png" class="img-fluid" style="vertical-align:bottom;">
+        </a>
         <a class="active" href="../pages/home.html">Home</a>
         <a href="../pages/racecars.html">Racecars</a>
         <a href="../pages/leaderboard.php">Leaderboard</a>
@@ -29,36 +36,43 @@
                         <label>Enter First Name:</label></td>
                     <td><input type="text" name="First_Name"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Email:</label></td>
                     <td><input type="email" name="Email"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Username:</label></td>
                     <td><input type="text" name="Username"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Car Model:</label></td>
                     <td><input type="text" name="Car_Model"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Speed (mph):</label></td>
                     <td><input type="number" name="Speed"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Wins:</label></td>
                     <td><input type="number" name="Wins"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td>
                         <label>Enter Races:</label></td>
                     <td><input type="number" name="Races"></td>
                 </tr>
+                <tr><td><br></td></tr>
                 <tr>
                     <td colspan="2" align="center">
                         <input type="submit" name="save" value="Submit" style="font-size:20px"></td>

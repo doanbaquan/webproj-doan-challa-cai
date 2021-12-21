@@ -26,10 +26,14 @@
 
     </style>
     <title>Leaderboard | SD Street Racing</title>
+    <link rel="icon" href="../images/SDRACING.png">
     <link rel="stylesheet" href="../css/lightstyle.css">
 </head>
 <body>
     <div class="topnav">
+        <a class="navbar-brand" href="../pages/home.html" style="padding-top: 1%; padding-left: 1%; padding-right: 1%;">
+            <img src="../images/SDRACING.png" class="img-fluid" style="vertical-align:bottom;">
+        </a>
         <a href="../pages/home.html">Home</a>
         <a href="../pages/racecars.html">Racecars</a>
         <a class="active" href="../pages/leaderboard.php">Leaderboard</a>

@@ -27,11 +27,12 @@ if(isset($_POST['save']))
     if (mysqli_query($conn, $sql_query))
     {
         echo "Record Submitted Successfully!";
-        header("Location: ../pages/home.html");
+        header("Location: ../pages/reg_success.html");
     }
     else
     {
         echo "Error:   " . $sql_query . "" . mysqli_error($conn);
+        header("Location: ../pages/reg_failed.html");
     }
     mysqli_close($conn);
 }

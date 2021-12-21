@@ -1,3 +1,8 @@
+.img-fluid {
+  height: 50px;
+  width: auto;
+}
+
 body {
   background-image: url("../images/background1.jpeg");
   background-color: rgb(255, 212, 147);
@@ -12,7 +17,7 @@ body {
 .topnav a {
   color: black;
   text-align: center;
-  padding: 1% 8%;
+  padding: 1.5% 7%;
   text-decoration: none;
   font-family: papyrus;
   font-weight: 900;
