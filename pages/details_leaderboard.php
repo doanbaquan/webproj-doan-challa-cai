@@ -27,6 +27,7 @@ if(isset($_POST['save']))
     if (mysqli_query($conn, $sql_query))
     {
         echo "Record Submitted Successfully!";
+        header("Location: ../pages/home.html");
     }
     else
     {
