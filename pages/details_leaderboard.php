@@ -2,14 +2,13 @@
 $servername="localhost";
 $username="quan";
 $password="1234";
-$databasename="streetracrs";
+$database="streetracrs";
 
-$conn=mysqli_connect($servername,$username,$password,$databasename);
-//now check the connection
-if(!$conn) 
-{
-    die("Connection Failed:" . mysqli_connect_error());
-}
+$conn = new mysqli($servername, $username, $password, $database);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 
 if(isset($_POST['save']))
 {
@@ -26,14 +25,15 @@ if(isset($_POST['save']))
 
     if (mysqli_query($conn, $sql_query))
     {
-        echo "Record Submitted Successfully!";
-        header("Location: ../pages/reg_success.html");
+        header("Location: ../pages/leaderboard.php");
     }
     else
     {
         echo "Error:   " . $sql_query . "" . mysqli_error($conn);
         header("Location: ../pages/reg_failed.html");
     }
-    mysqli_close($conn);
+
+    // closing connection
+    $conn->close();
 }
 ?>

@@ -23,6 +23,18 @@
             font-size: 20px;
             font-family: arial;
         }
+        
+        .buttonHolder{ text-align: center; }
+
+        input[type=submit] {
+            padding: 15px 32px;
+            font-size: 16px;
+            background-color: #4caf50;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
 
     </style>
     <title>Leaderboard | SD Street Racing</title>
@@ -36,14 +48,21 @@
         </a>
         <a href="../pages/home.html">Home</a>
         <a href="../pages/racecars.html">Racecars</a>
-        <a class="active" href="../pages/leaderboard.php">Leaderboard</a>
+        <a class="active" href="../pages/leaderboard.php">Active Racers</a>
     </div>
 
     <div class="text">
 
-    <h1>Leaderboard</h1>
+    <h1>Active Racers</h1>
 
-    <button onclick="document.location='../pages/register.html'">Register for Leaderboard</button>
+    <button onclick="document.location='../pages/register.html'">Register Now!</button>
+    <br>
+    <div class="buttonHolder">
+        <form action="dbcreation_millard.php" method="get">
+            <input type="submit" value="Create Database (Millard)">
+        </form>
+    </div>
+
     <br><br>
 
     <table>
